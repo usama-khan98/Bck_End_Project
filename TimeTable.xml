@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="PaddysCafe.xsl"?>
+
+<Timetable>
+	<day name="Monday">
+
+		<task>
+			<type name="security">Job</type>
+			<StartTime>06:00</StartTime>
+			<Endtime>18:00</Endtime>
+		</task>
+
+	</day>
+
+	<day name="Tuesday">
+		<task college="true">
+			<type>Lecture</type>
+			<StartTime>09:30</StartTime>
+			<Endtime>12:00</Endtime>
+		</task>
+
+		<task college="true">
+			<type>Lecture</type>
+			<StartTime>13:00</StartTime>
+			<Endtime>15:30</Endtime>
+		</task>
+
+		<task>
+			<type name="Delivery">Job</type>
+			<StartTime>18:00</StartTime>
+			<Endtime>22:00</Endtime>
+		</task>
+	</day>
+
+	<day name="Wednesday">
+		
+		<task>
+			<type name="Delivery">Job</type>
+			<StartTime>17:00</StartTime>
+			<Endtime>22:00</Endtime>
+		</task>
+
+	</day>
+
+	<day name="Thursday">
+		
+		<task college="true">
+			<type>Lecture</type>
+			<StartTime>12:30</StartTime>
+			<Endtime>15:00</Endtime>
+		</task>
+
+		<task college="true">
+			<type>Lecture</type>
+			<StartTime>15:30</StartTime>
+			<Endtime>18:00</Endtime>
+		</task>
+
+		<task>
+			<type name="Delivery">Job</type>
+			<StartTime>18:30</StartTime>
+			<Endtime>22:00</Endtime>
+		</task>
+
+	</day>
+
+	<day name="Friday">
+		
+		<task college="true">
+			<type>Lecture</type>
+			<StartTime>09:30</StartTime>
+			<Endtime>12:00</Endtime>
+		</task>
+
+		<task college="true">
+			<type>Lecture</type>
+			<StartTime>13:00</StartTime>
+			<Endtime>15:30</Endtime>
+		</task>
+
+		<task>
+			<type name="Delivery">Job</type>
+			<StartTime>18:00</StartTime>
+			<Endtime>23:00</Endtime>
+		</task>
+
+	</day>
+
+	<day name="Saturday">
+		
+		<task>
+			<type name="security">Job</type>
+			<StartTime>07:00</StartTime>
+			<Endtime>19:00</Endtime>
+		</task>
+
+	</day>
+
+	<day name="Sunday">
+		
+		<task>
+			<type name="security">Job</type>
+			<StartTime>07:00</StartTime> 
+			<Endtime>19:00</Endtime>
+		</task>
+	</day>
+
+
+</Timetable>
