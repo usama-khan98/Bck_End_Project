@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<?xml-stylesheet Type="text/xsl" href="PaddysCafe.xsl"?>
+<?xml-stylesheet Type="text/xsl" href="TimeTable.xsl"?>
 
 <Timetable>
 	<day name="Monday">
