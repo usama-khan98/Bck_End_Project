@@ -11,7 +11,7 @@
                             <th>Day</th>
                             <th>Time</th>
                         </tr>
-                    </thead>
+                    </thead> 
                     <tbody>
                         <xsl:for-each select="/TimeTable/day">
                             <tr>
