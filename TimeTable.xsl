@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
     <xsl:template match="/">
-                <table id="TimeTable" class="indent">
+                <table id="Table" class="indent">
                     <thead>
                         <tr>
                             <th colspan="3">My Weekly Schedule</th>
                         </tr>
                         <tr>
-                            <th>Select</th>
+                
                             <th>Day</th>
                             <th>Time</th>
                         </tr>
