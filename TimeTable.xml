@@ -6,8 +6,8 @@
 
 		<task>
 			<type name="security">Job</type>
-			<StartTime>06:00</StartTime>
-			<Endtime>18:00</Endtime>
+			<Time>06:00-18:00</Time>
+		
 		</task>
 
 	</day>
@@ -15,20 +15,20 @@
 	<day name="Tuesday">
 		<task college="true">
 			<type>Lecture</type>
-			<StartTime>09:30</StartTime>
-			<Endtime>12:00</Endtime>
+			<Time>09:30-12:00</Time>
+			
 		</task>
 
 		<task college="true">
 			<type>Lecture</type>
-			<StartTime>13:00</StartTime>
-			<Endtime>15:30</Endtime>
+			<Time>13:00-15:30</Time>
+			
 		</task>
 
 		<task>
 			<type name="Delivery">Job</type>
-			<StartTime>18:00</StartTime>
-			<Endtime>22:00</Endtime>
+			<Time>18:00-22:00</Time>
+		
 		</task>
 	</day>
 
@@ -36,8 +36,8 @@
 		
 		<task>
 			<type name="Delivery">Job</type>
-			<StartTime>17:00</StartTime>
-			<Endtime>22:00</Endtime>
+			<Time>17:00-22:00</Time>
+			
 		</task>
 
 	</day>
@@ -46,20 +46,20 @@
 		
 		<task college="true">
 			<type>Lecture</type>
-			<StartTime>12:30</StartTime>
-			<Endtime>15:00</Endtime>
+			<Time>12:30-15:00</Time>
+			
 		</task>
 
 		<task college="true">
 			<type>Lecture</type>
-			<StartTime>15:30</StartTime>
-			<Endtime>18:00</Endtime>
+			<Time>15:30-18:00</Time>
+			
 		</task>
 
 		<task>
 			<type name="Delivery">Job</type>
-			<StartTime>18:30</StartTime>
-			<Endtime>22:00</Endtime>
+			<Time>18:30-22:00</Time>
+			
 		</task>
 
 	</day>
@@ -68,20 +68,20 @@
 		
 		<task college="true">
 			<type>Lecture</type>
-			<StartTime>09:30</StartTime>
-			<Endtime>12:00</Endtime>
+			<Time>09:30-12:00</Time>
+		
 		</task>
 
 		<task college="true">
 			<type>Lecture</type>
-			<StartTime>13:00</StartTime>
-			<Endtime>15:30</Endtime>
+			<Time>13:00-15:30</Time>
+		
 		</task>
 
 		<task>
 			<type name="Delivery">Job</type>
-			<StartTime>18:00</StartTime>
-			<Endtime>23:00</Endtime>
+			<Time>18:00-23:00</Time>
+		
 		</task>
 
 	</day>
@@ -90,8 +90,8 @@
 		
 		<task>
 			<type name="security">Job</type>
-			<StartTime>07:00</StartTime>
-			<Endtime>19:00</Endtime>
+			<Time>07:00-19:00</Time>
+			
 		</task>
 
 	</day>
@@ -100,8 +100,8 @@
 		
 		<task>
 			<type name="security">Job</type>
-			<StartTime>07:00</StartTime> 
-			<Endtime>19:00</Endtime>
+			<Time>07:00-19:00</Time> 
+		
 		</task>
 	</day>
 
