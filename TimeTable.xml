@@ -1,109 +1,81 @@
-<?xml version="1.0"?>
-<?xml-stylesheet Type="text/xsl" href="TimeTable.xsl"?>
-
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Timetable>
-	<day name="Monday">
-
-		<task>
-			<Type name="security">Job</Type>
-			<Time>06:00-18:00</Time>
-		
-		</task>
-
-	</day>
-
-	<day name="Tuesday">
-		<task college="true">
-			<Type>Lecture</Type>
-			<Time>09:30-12:00</Time>
-			
-		</task>
-
-		<task college="true">
-			<Type>Lecture</Type>
-			<Time>13:00-15:30</Time>
-			
-		</task>
-
-		<task>
-			<Type name="Delivery">Job</Type>
-			<Time>18:00-22:00</Time>
-		
-		</task>
-	</day>
-
-	<day name="Wednesday">
-		
-		<task>
-			<Type name="Delivery">Job</Type>
-			<Time>17:00-22:00</Time>
-			
-		</task>
-
-	</day>
-
-	<day name="Thursday">
-		
-		<task college="true">
-			<Type>Lecture</Type>
-			<Time>12:30-15:00</Time>
-			
-		</task>
-
-		<task college="true">
-			<Type>Lecture</Type>
-			<Time>15:30-18:00</Time>
-			
-		</task>
-
-		<task>
-			<Type name="Delivery">Job</Type>
-			<Time>18:30-22:00</Time>
-			
-		</task>
-
-	</day>
-
-	<day name="Friday">
-		
-		<task college="true">
-			<Type>Lecture</Type>
-			<Time>09:30-12:00</Time>
-		
-		</task>
-
-		<task college="true">
-			<Type>Lecture</Type>
-			<Time>13:00-15:30</Time>
-		
-		</task>
-
-		<task>
-			<Type name="Delivery">Job</Type>
-			<Time>18:00-23:00</Time>
-		
-		</task>
-
-	</day>
-
-	<day name="Saturday">
-		
-		<task>
-			<Type name="security">Job</Type>
-			<Time>07:00-19:00</Time>
-			
-		</task>
-
-	</day>
-
-	<day name="Sunday">
-		
-		<task>
-			<Type name="security">Job</Type>
-			<Time>07:00-19:00</Time> 
-		
-		</task>
-	</day>
-
-
+  <day name="Monday">
+    <task>
+      <Type name="security">Job</Type>
+      <Time>06:00-18:00</Time>
+    </task>
+    <task>
+      <Type>Job</Type>
+      <Time>18:00-20:00</Time>
+    </task>
+    <task>
+      <Type>Job</Type>
+      <Time>18:00-20:00</Time>
+    </task>
+    <task>
+      <Type>Leacture</Type>
+      <Time>12:00-56</Time>
+    </task>
+  </day>
+  <day name="Tuesday">
+    <task college="true">
+      <Type>Lecture</Type>
+      <Time>09:30-12:00</Time>
+    </task>
+    <task college="true">
+      <Type>Lecture</Type>
+      <Time>13:00-15:30</Time>
+    </task>
+    <task>
+      <Type name="Delivery">Job</Type>
+      <Time>18:00-22:00</Time>
+    </task>
+  </day>
+  <day name="Wednesday">
+    <task>
+      <Type name="Delivery">Job</Type>
+      <Time>17:00-22:00</Time>
+    </task>
+  </day>
+  <day name="Thursday">
+    <task college="true">
+      <Type>Lecture</Type>
+      <Time>12:30-15:00</Time>
+    </task>
+    <task college="true">
+      <Type>Lecture</Type>
+      <Time>15:30-18:00</Time>
+    </task>
+    <task>
+      <Type name="Delivery">Job</Type>
+      <Time>18:30-22:00</Time>
+    </task>
+  </day>
+  <day name="Friday">
+    <task college="true">
+      <Type>Lecture</Type>
+      <Time>09:30-12:00</Time>
+    </task>
+    <task college="true">
+      <Type>Lecture</Type>
+      <Time>13:00-15:30</Time>
+    </task>
+    <task>
+      <Type name="Delivery">Job</Type>
+      <Time>18:00-23:00</Time>
+    </task>
+  </day>
+  <day name="Saturday">
+    <task>
+      <Type name="security">Job</Type>
+      <Time>07:00-19:00</Time>
+    </task>
+  </day>
+  <day name="Sunday">
+    <task>
+      <Type name="security">Job</Type>
+      <Time>07:00-19:00</Time>
+    </task>
+  </day>
 </Timetable>

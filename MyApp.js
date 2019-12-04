@@ -61,7 +61,7 @@ router.post('/post/json', function(req, res) {
     xmlFileToJs('TimeTable.xml', function(err, result) {
       if (err) throw (err);
       //This is where you pass on information from the form inside index.html in a form of JSON and navigate through our JSON (XML) file to create a new entree object
-      result.cafemenu.section[obj.sec_n].entree.push({'type': obj.type, 'Time': obj.Time}); //If your XML elements are differet, this is where you have to change to your own element names
+      result.Timetable.day[obj.sec_n].task.push({'Type': obj.Type, 'Time': obj.Time}); //If your XML elements are differet, this is where you have to change to your own element names
       //Converting back to our original XML file from JSON
       jsToXmlFile('TimeTable.xml', result, function(err) {
         if (err) console.log(err);
@@ -86,7 +86,7 @@ router.post('/post/delete', function(req, res) {
     xmlFileToJs('TimeTable.xml', function(err, result) {
       if (err) throw (err);
       //This is where we delete the object based on the position of the section and position of the entree, as being passed on from index.html
-      delete result.TimeTable.day[obj.day].task[obj.task];
+      delete result.Timetable.day[obj.day].task[obj.task];
       //This is where we convert from JSON and write back our XML file
       jsToXmlFile('TimeTable.xml', result, function(err) {
         if (err) console.log(err);

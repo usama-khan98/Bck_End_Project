@@ -13,7 +13,7 @@
                         </tr>
                     </thead> 
                     <tbody>
-                        <xsl:for-each select="/TimeTable/day">
+                        <xsl:for-each select="/Timetable/day">
                             <tr>
                                 <td colspan="3">
                                     <xsl:value-of select="@name" />
@@ -23,7 +23,7 @@
                             <tr id="{position()}">
                                 
                                 <td>
-                                    <xsl:value-of select="type" />
+                                    <xsl:value-of select="Type" />
                                 </td>
                                 <td align="right">
                                     <xsl:value-of select="Time" />
