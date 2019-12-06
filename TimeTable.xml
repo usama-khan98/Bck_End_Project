@@ -80,7 +80,6 @@
       <EndTime>23:00</EndTime>
     </task>
   </day>
-  
   <day name="Saturday">
     <task>
       <Type name="security">Job</Type>
