@@ -23,6 +23,7 @@
                             <xsl:for-each select="task">
                             <tr id="{position()}">
                                 
+                                
                                 <td>
                                     <xsl:value-of select="Type" />
                                 </td>
