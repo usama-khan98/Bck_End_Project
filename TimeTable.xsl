@@ -9,7 +9,8 @@
                         <tr>
                 
                             <th>Day</th>
-                            <th>Time</th>
+                            <th>Start Time</th>
+                            <th>End Time</th>
                         </tr>
                     </thead> 
                     <tbody>
@@ -26,7 +27,10 @@
                                     <xsl:value-of select="Type" />
                                 </td>
                                 <td align="right">
-                                    <xsl:value-of select="Time" />
+                                    <xsl:value-of select="StartTime" />
+                                </td>
+                                <td align="right">
+                                    <xsl:value-of select="EndTime" />
                                 </td>
                             </tr>
                             </xsl:for-each>
