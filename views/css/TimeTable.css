@@ -5,6 +5,7 @@ html {
 body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
+  background: url(img2.jpg) fixed;
 }
 .footer {
   position: absolute;
@@ -23,6 +24,7 @@ table, th, td {
  table {
      border-collapse: collapse;
      width:100%;
+     
 }
  td, th {
      border: 1px solid #ced4da;
@@ -32,8 +34,16 @@ table, th, td {
  th {
      font-weight: bold;
      
+     
 }
 .selected {
             background-color: #dc3545;
             color: #FFF;
 }
+
+h3{
+    text-align: left;
+}
+
+
+

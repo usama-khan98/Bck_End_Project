@@ -44,11 +44,12 @@
 		<div class="row">
 			<div class="col-lg-12 text-left">
 				<h1 class="mt-5">Welcome to Schedule Application</h1>
-				<p class="lead">Please select Job type </p>
+				<p class="lead">Please Select Following </p>
 			</div>
 			<div id="results" class="col-lg-8 text-center order-3"></div>
 			<div class="col-lg-4 text-center order-2">
 				<form enctype="application/json" action="/post/json" method="post">
+                <h3>Day<h3>
 					<div class="form-group">
 						<select class="form-control" name="sec_n">
 							<option value="0">Monday</option>
@@ -61,12 +62,15 @@
 							
 						</select>
 					</div>
+                    <h3>Type</h3>
 					<div class="form-group">
-						<input class="form-control" type="text" onkeypress="return a(event);" name="Type" placeholder="Type" >
+						<input class="form-control" type="text" onkeypress="return a(event);" name="Type" >
 					</div>
+                    <h3>Start Time</h3>
 					<div class="form-group">
 						<input class="form-control" type="time" name="StartTime" placeholder="Start time">
 					</div>
+                    <h3>End Time</h3>
                     <div class="form-group">
 						<input class="form-control" type="time" name="EndTime" placeholder="End time">
 					</div>
